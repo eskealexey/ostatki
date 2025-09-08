@@ -163,7 +163,7 @@ class MyApp:
         # Добавляем заголовки и данные в текст для копирования
         # header = "\t".join(columns)
         # clipboard_text = f"{header}\n{'\n'.join(data_to_copy)}"
-        clipboard_text = f"{'\n'.join(data_to_copy)}"
+        clipboard_text = '\n'.join(data_to_copy)
 
         # Копируем в буфер обмена
         self.root.clipboard_clear()
