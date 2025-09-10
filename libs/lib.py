@@ -188,7 +188,7 @@ class MyApp:
                 continue
 
             if current_section is not None and pd.notna(row[0]) and (
-                    str(row[0]).strip() in ['105.31', '105.33', '105.35', '105.36', '1', '02.4']):
+                    str(row[0]).strip() in ['105.31', '105.33', '105.35', '105.36', '1', '2.04']):
                 continue
             if current_section is not None:
                 sections[current_section].append(row)
